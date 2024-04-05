@@ -16,7 +16,7 @@
 
 <p align="center">
     O projeto é uma base sólida de API Node.js com NestJS, projetada para simplificar </br>
-    a criação de APIs pelos desenvolvedores, oferecendo uma estrutura organizada e configurações padrão..
+    a criação de APIs pelos desenvolvedores, oferecendo uma estrutura organizada e configurações padrão.
 </p>
 
 </br>
