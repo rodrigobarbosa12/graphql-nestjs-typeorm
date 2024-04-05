@@ -1,0 +1,31 @@
+{
+  getUser(id: 1) {
+    id
+    name
+    email
+    password
+    active
+    token
+    phone
+    createdAt
+    updatedAt
+  }
+}
+
+mutation {
+  postUser(user: {
+    name: "Rodrigo 123"
+    email: "teste@abcd.com.br"
+    password: "123456"
+    phone: "4475-3295"
+    token: "asdsdlkfdsa"
+    active: "1"
+  }) {
+    name
+    email
+    password
+    phone
+    token
+    active
+  }
+}

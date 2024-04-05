@@ -1,4 +1,13 @@
-<h1 align="center">NODE API SKELETON</h1>
+<p align="center">
+    <img
+      alt="API Node"
+      title="API Node"
+      width="500"
+      src="public/images/logo.png"
+    />
+</p>
+
+<h1 align="center">GraphQL and TypeORM with NestJs</h1>
 
 <p align="center">
   <img alt="NextJs" src="https://img.shields.io/badge/NodeJs-%3E%3D%2020-green?style=flat-square" />
@@ -57,7 +66,7 @@
 ## 🧩 Instalação e execução
 
 ### Criar migration
-    npm run typeorm migration:create src/infrastructure/typeorm/migrations/your-migrationName
+    yarn typeorm migration:create src/infrastructure/typeorm/migrations/your-migrationName
 
 ### Executar a migration
-    npm run migration
+    yarn migration

@@ -8,7 +8,9 @@ async function bootstrap() {
   const app = await configapp()
 
   await app.listen(PORT_SERVER, () => {
-    console.log(`Server running in: http://${ip.address()}:${PORT_SERVER}`)
+    console.log(
+      `Open in browser: http://${ip.address()}:${PORT_SERVER}/graphql`,
+    )
   })
 }
 
